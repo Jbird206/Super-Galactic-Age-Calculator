@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <SCRIPT LANGUAGE="JavaScript">
+
+
+
+      
+      function planets (form) {
+      form.mercuryyears.value = form.humanyears.value/.241;
+      }
+      
+      </SCRIPT>
+    <title>planetary calculator</title>
   </head>
   <body>
-    <div>
-      div
-    </div>
+    <center><h1>Planetary Calculator</h1></center>
+    <br><hr>
+    <b>How old are you in Mercurian years:</b>
+<FORM>
+      Enter your age:
+      <INPUT TYPE ="text" NAME="humanyears" SIZE=15 >
+      <BR><P>
+      <INPUT TYPE ="button" VALUE="Calculate" ONCLICK="planets(this.form)">
+      <BR><P>
+      Your age in Mercurian age is:
+      <INPUT TYPE="text" NAME="mercuryyears" SIZE=15 >
+      <BR>
+      </FORM>
+      <br><hr>
+      <b>How old are you in Plutonian years:</b>
+      <FORM>
+            Enter your age:
+            <INPUT TYPE ="text" NAME="humanyears" SIZE=15 >
+            <BR><P>
+            <INPUT TYPE ="button" VALUE="Calculate" ONCLICK="planets(this.form)">
+            <BR><P>
+            Your age in Plutonian age is:
+            <INPUT TYPE="text" NAME="plutoyears" SIZE=15 >
+            <BR>
+            </FORM>
+            <br><hr>
+            <b>How old are you in Martian years:</b>
+            <FORM>
+                  Enter your age:
+                  <INPUT TYPE ="text" NAME="humanyears" SIZE=15 >
+                  <BR><P>
+                  <INPUT TYPE ="button" VALUE="Calculate" ONCLICK="planets(this.form)">
+                  <BR><P>
+                  Your age in Martian age is:
+                  <INPUT TYPE="text" NAME="marsyears" SIZE=15 >
+                  <BR>
+                  </FORM>
+                  <br><hr>
+                  <b>How old are you in Venusian years?</b>
+                  <FORM>
+                    Enter your age:
+                    <INPUT TYPE ="text" NAME="humanyears" SIZE=15 >
+                    <BR><P>
+                    <INPUT TYPE ="button" VALUE="Calculate" ONCLICK="planets(this.form)">
+                    <BR><P>
+                    Your age in Venusian age is:
+                    <INPUT TYPE="text" NAME="venusyears" SIZE=15 >
+                    <BR>
+                    </FORM>
   </body>
 </html>
